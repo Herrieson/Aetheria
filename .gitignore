@@ -1,0 +1,29 @@
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Local data & outputs
+result/
+logs/
+aetheria_simple/chroma_db/
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite
+frontend/.DS_Store
+
+# --- Misc ---
+.DS_Store
+Thumbs.db

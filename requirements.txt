@@ -1,0 +1,16 @@
+# Core web stack
+fastapi>=0.115.0,<0.116.0
+uvicorn[standard]>=0.32.0,<0.33.0
+pydantic>=2.8.0,<3.0.0
+
+# Azure OpenAI + LangChain tooling
+openai>=1.52.2,<2.0.0
+langchain>=0.3.7,<0.4.0
+langchain-core>=0.3.18,<0.4.0
+langchain-community>=0.3.7,<0.4.0
+langchain-openai>=0.2.9,<0.3.0
+chromadb>=0.5.20,<0.6.0
+
+# Utilities
+python-dotenv>=1.0.1,<2.0.0
+tqdm>=4.66.5,<5.0.0
